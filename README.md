@@ -10,6 +10,11 @@ This project provides a full edge-computing hardware–software stack to acceler
 - **`bitstream/`**: Compiled Vivado hardware handoff files (`.bit` and `.hwh`).
 
 ---
+## 🎛️ Hardware Architecture
+
+The system integrates the custom HLS DTW accelerator with the Zynq-7000 Processing System via AXI-Stream and AXI-Lite interfaces using Vivado IP Integrator:
+
+![Vivado Block Design](images/block_design.png)
 
 ## Setup & Execution Instructions
 
