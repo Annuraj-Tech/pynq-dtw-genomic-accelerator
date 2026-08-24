@@ -16,6 +16,12 @@ The system integrates the custom HLS DTW accelerator with the Zynq-7000 Processi
 
 ![Vivado Block Design](images/block_design.png)
 
+## 🗺️ Physical Implementation & Floorplan
+
+The post-implementation device view on the Zynq-7000 SoC (`xc7z020clg400-1`) showing the placement and routing of the custom DTW hardware accelerator core across the FPGA slice fabric:
+
+![FPGA Device Layout and Floorplan](images/device_layout.png)
+
 ## Setup & Execution Instructions
 
 ### 1. Host PC Preprocessing & Simulation
